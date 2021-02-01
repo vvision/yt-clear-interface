@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "Interface épurée pour Youtube™",
+    "description": "Nom de l'extension."
+  },
+  "extensionDescription": {
+    "message": "Permet de choisir certains éléments de l'interface Youtube™ à cacher.",
+    "description": "Description de l'extension."
+  },
+
+  "hideClarifyBoxTitle": {
+    "message": "Cacher le message de clarification",
+    "description": "Titre paramètre hideClarifyBox."
+  },
+  "hideClarifyBoxDescription": {
+    "message": "",
+    "description": "Description paramètre hideClarifyBox."
+  },
+  "hideSuggestionsTitle": {
+    "message": "Cacher les suggestions de vidéos",
+    "description": "Titre paramètre hideSuggestions."
+  },
+  "hideSuggestionsDescription": {
+    "message": "",
+    "description": "Description paramètre hideSuggestions."
+  },
+  "hideEndScreenTitle": {
+    "message": "Cacher les suggestions à la fin de la vidéo",
+    "description": "Titre paramètre hideEndScreen."
+  },
+  "hideEndScreenDescription": {
+    "message": "",
+    "description": "Description paramètre hideEndScreen."
+  },
+  "hideCommentsTitle": {
+    "message": "Cacher les commentaires",
+    "description": "Titre paramètre hideComments."
+  },
+  "hideCommentsDescription": {
+    "message": "",
+    "description": "Description paramètre hideComments."
+  },
+
+  "WhatIsNewTitle": {
+    "message": "Quelles nouveautés en version",
+    "description": "Titre nouveautés."
+  },
+  "settingsLabel": {
+    "message": "Configuration",
+    "description": "Label configuration."
+  },
+  "settingsDesc": {
+    "message": "YtClearInterface permet de cacher certains éléments de l'interface YouTube.",
+    "description": "Description configuration."
+  },
+
+  "learnMoreTitle": {
+    "message": "En savoir plus, ou contribuer.",
+    "description": "Titre contribuer."
+  },
+  "donate": {
+    "message": "Don",
+    "description": "Texte du bouton de don."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "Clear Youtube™ Interface",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Choose which components to hide.",
+    "description": "Description of the extension."
+  },
+
+  "hideClarifyBoxTitle": {
+    "message": "Hide clarify box",
+    "description": "hideClarifyBox settings title."
+  },
+  "hideClarifyBoxDescription": {
+    "message": "",
+    "description": "hideClarifyBox settings description."
+  },
+  "hideSuggestionsTitle": {
+    "message": "Hide recommended videos list",
+    "description": "hideSuggestions toggle settings title."
+  },
+  "hideSuggestionsDescription": {
+    "message": "",
+    "description": "hideSuggestions toggle settings description."
+  },
+  "hideEndScreenTitle": {
+    "message": "Hide recommended videos at video's end",
+    "description": "hideEndScreen settings title."
+  },
+  "hideEndScreenDescription": {
+    "message": "",
+    "description": "hideEndScreen settings description."
+  },
+  "hideCommentsTitle": {
+    "message": "Hide comments",
+    "description": "hideComments settings title."
+  },
+  "hideCommentsDescription": {
+    "message": "",
+    "description": "hideComments settings description."
+  },
+
+  "WhatIsNewTitle": {
+    "message": "What's new in version",
+    "description": "What's new title."
+  },
+  "settingsLabel": {
+    "message": "Settings",
+    "description": "Settings label."
+  },
+  "settingsDesc": {
+    "message": "YtClearInterface gives you the ability to hide elements of YouTube's interface.",
+    "description": "Settings description ."
+  },
+
+  "learnMoreTitle": {
+    "message": "Learn more, or contribute.",
+    "description": "Contribute title."
+  },
+  "donate": {
+    "message": "Donate",
+    "description": "Donate button text."
+  }
+}
