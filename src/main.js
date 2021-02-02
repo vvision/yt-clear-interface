@@ -127,3 +127,35 @@ browser.storage.sync.get(options).then(settings => {
   }
   window.requestAnimationFrame(tryToHideElements);
 }, logStorageErrorAndFallback);
+
+/**
+ * Observe DOM to remove comments if needed
+ */
+// Select the node that will be observed for mutations
+// const targetNode = document.getElementById('columns');
+// Options for the observer (which mutations to observe)
+const config = { attributes: false, childList: true, subtree: true };
+
+// Callback function to execute when mutations are observed
+const callback = function (mutationsList, observer) {
+  for (let mutation of mutationsList) {
+    if (mutation.type === 'childList') {
+      if (mutation.target.nodeName.toLowerCase().includes('ytd-comments')) {
+        logStep('A child node related to comments has changed.');
+        logStep(mutation);
+
+        const commentsIdentifier = identifiers.filter(
+          identifier => identifier.id === 'COMMENTS',
+        )[0];
+        if (commentsIdentifier.shouldBeHidden) {
+          hideElement('#comments');
+        }
+        observer.disconnect();
+      }
+    }
+  }
+};
+// Create an observer instance linked to the callback function
+const observer = new MutationObserver(callback);
+// Start observing the target node for configured mutations
+observer.observe(document.body /* targetNode */, config);
