@@ -2,13 +2,15 @@ const options = new Map()
   .set('hideClarifyBox', 'checkbox')
   .set('hideSuggestions', 'checkbox')
   .set('hideEndScreen', 'checkbox')
-  .set('hideComments', 'checkbox');
+  .set('hideComments', 'checkbox')
+  .set('hideDonation', 'checkbox');
 const storage = browser.storage.sync;
 const defaultOptions = {
   hideClarifyBox: false,
   hideSuggestions: false,
   hideEndScreen: false,
   hideComments: false,
+  hideDonation: false,
 };
 
 const renderContents = function () {

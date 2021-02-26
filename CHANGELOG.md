@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0 (2021-02-xx)
+
+# Added
+- Hide donation shelf.
+
 ## 1.1.0 (2021-02-02)
 
 # Added

@@ -40,6 +40,14 @@
     "message": "",
     "description": "Description paramètre hideComments."
   },
+  "hideDonationTitle": {
+    "message": "Cacher l'encart de donation",
+    "description": "Titre paramètre hideDonation."
+  },
+  "hideCommentsDescription": {
+    "message": "",
+    "description": "Description paramètre hideDonation."
+  },
 
   "WhatIsNewTitle": {
     "message": "Quelles nouveautés en version",

@@ -40,6 +40,14 @@
     "message": "",
     "description": "hideComments settings description."
   },
+  "hideDonationTitle": {
+    "message": "Hide donation shelf",
+    "description": "hideDonation settings title."
+  },
+  "hideCommentsDescription": {
+    "message": "",
+    "description": "hideDonation settings description."
+  },
 
   "WhatIsNewTitle": {
     "message": "What's new in version",

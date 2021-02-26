@@ -43,6 +43,12 @@ const identifiers = [
     selector: '#comments',
     shouldBeHidden: false,
   },
+  {
+    id: 'DONATION_SHELF',
+    optionName: 'hideDonation',
+    selector: '#donation-shelf',
+    shouldBeHidden: false,
+  },
 ];
 
 /**
