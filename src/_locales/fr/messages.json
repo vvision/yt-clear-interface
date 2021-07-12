@@ -44,9 +44,17 @@
     "message": "Cacher l'encart de donation",
     "description": "Titre paramètre hideDonation."
   },
-  "hideCommentsDescription": {
+  "hideDonationDescription": {
     "message": "",
     "description": "Description paramètre hideDonation."
+  },
+  "hideMainContentsTitle": {
+    "message": "Cacher le contenu de la page principale",
+    "description": "Titre paramètre hideMainContents."
+  },
+  "hideMainContentsDescription": {
+    "message": "",
+    "description": "Description paramètre hideMainContents."
   },
 
   "WhatIsNewTitle": {

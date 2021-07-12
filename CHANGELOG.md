@@ -1,9 +1,10 @@
 # Changelog
 
-## 1.2.0 (2021-02-xx)
+## 1.2.0 (2021-07-xx)
 
 # Added
 - Hide donation shelf.
+- Hide content on main page.
 
 ## 1.1.0 (2021-02-02)
 

@@ -3,6 +3,7 @@ const options = new Map()
   .set('hideSuggestions', 'checkbox')
   .set('hideEndScreen', 'checkbox')
   .set('hideComments', 'checkbox')
+  .set('hideMainContents', 'checkbox')
   .set('hideDonation', 'checkbox');
 const storage = browser.storage.sync;
 const defaultOptions = {
@@ -11,6 +12,7 @@ const defaultOptions = {
   hideEndScreen: false,
   hideComments: false,
   hideDonation: false,
+  hideMainContents: false,
 };
 
 const renderContents = function () {

@@ -44,9 +44,17 @@
     "message": "Hide donation shelf",
     "description": "hideDonation settings title."
   },
-  "hideCommentsDescription": {
+  "hideDonationDescription": {
     "message": "",
     "description": "hideDonation settings description."
+  },
+  "hideMainContentsTitle": {
+    "message": "Hide content on main page",
+    "description": "hideMainContents settings title."
+  },
+  "hideMainContentsDescription": {
+    "message": "",
+    "description": "hideMainContents settings description."
   },
 
   "WhatIsNewTitle": {

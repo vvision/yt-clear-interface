@@ -49,6 +49,12 @@ const identifiers = [
     selector: '#donation-shelf',
     shouldBeHidden: false,
   },
+  {
+    id: 'MAIN_SCREEN_CONTENTS',
+    optionName: 'hideMainContents',
+    selector: '#contents',
+    shouldBeHidden: false,
+  },
 ];
 
 /**
